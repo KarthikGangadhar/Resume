@@ -57,6 +57,7 @@
 
 <div class="container sections-wrapper">
     <div class="row">
+
         <div class="primary col-md-8 col-sm-12 col-xs-12">
             <section class="about section">
                 <div class="section-inner">
@@ -279,7 +280,7 @@
                     <h2 class="heading">My GitHub</h2>
 
 
-                    <div id="github-graph" class="github-graph">
+                    <div id="calender" class="calender">
 
                     </div><!--//github-graph-->
 
@@ -531,6 +532,12 @@
 <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
 <!-- custom js -->
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+<script>
+     GitHubCalendar(".calender", "karthikgangadhar"); 
+</script>
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 </body>
 </html> 
 
